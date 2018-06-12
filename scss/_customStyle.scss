@@ -1,18 +1,3 @@
-h1 {
-  color: #00539B;
-}
-
-
-#landingImage {
-  background: url('../img/AAA-Colorado-Cruise.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  min-height: 450px;
-  width: 100%;
-}
-
 // Blocks
 .btn {
   padding: 9px 26px;
@@ -276,3 +261,56 @@ header + header {
 
 table tr.no-border th, table tr.no-border td {
   border-top: 0; }
+
+#mainHero {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#lowPad {
+  padding-top: 1px;
+  background: url('../img/AAA-Colorado-Cruise.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 500px;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    opacity: .6;
+  }
+}
+#changeBG {
+  background: rgba(255, 255, 255, 0.459);
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  &:hover {
+    background-position: right center; 
+  }
+}
+
+.wss-header {
+  max-width: 1440px !important;
+}
+
+#resizeText {
+  resize: none;
+}
+
+.footerCruise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: 0 auto;
+}
