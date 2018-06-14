@@ -420,11 +420,8 @@ table tr.no-border td {
 }
 
 #changeBG {
-  background: rgba(255, 255, 255, 0.459);
+  background: rgba(255, 255, 255, 0.7);
   border: 1px solid #fff;
-  -webkit-box-shadow: 0px 0px 70px 0px rgba(255,255,255,0.5);
-  -moz-box-shadow: 0px 0px 70px 0px rgba(255,255,255,0.5);
-  box-shadow: 0px 0px 70px 0px rgba(255,255,255,0.5);
 }
 
 .wss-header {
@@ -448,6 +445,58 @@ table tr.no-border td {
   padding-right: 10px;
 }
 
+.navBar {
+  margin-left: -.9375rem;
+  margin-right: -.9375rem;
+  display: flex;
+  justify-content: center;
+}
+.innerBar {
+  width: 70rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  .coloradoLogo {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 34em) {
+  .innerBar {
+    width: 32rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .innerBar {
+    width: 43rem;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .innerBar {
+    width: 58rem;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .innerBar {
+    width: 70rem;
+  }
+}
 body {
   font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .wss-region-topbar-container #wss-roadside-assistance-button {
+    padding: .71rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .wss-region-topbar-container #wss-roadside-assistance-button {
+    padding: 1rem;
+  }
 }
