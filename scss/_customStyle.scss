@@ -1,3 +1,6 @@
+body {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+}
 // Blocks
 .btn {
   padding: 9px 26px;
@@ -115,6 +118,7 @@
   background-size: cover;
   background-position: center; // overflow: hidden;
   background-color: #FFFFFF;
+  padding-top: 30px;
 }
 
 .fdb-block.fdb-viewport {
@@ -132,7 +136,7 @@
 .fdb-block .fdb-box {
   background: #FFFFFF;
   color: #444444;
-  padding: 60px 40px;
+  padding: 40px 40px;
   border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -174,9 +178,9 @@
 
 .fdb-block h4,
 .fdb-block .text-h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: .5em;
-  margin-top: .3em;
+  margin-top: .4em;
   font-weight: 400;
 }
 
@@ -395,7 +399,7 @@ table tr.no-border td {
 
 #lowPad {
   padding-top: 1px;
-  background: url('../img/aaa-colorado-cruise-deals.jpg');
+  background: url('../img/aaa-colorado-cruise-deals1.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
@@ -408,8 +412,8 @@ table tr.no-border td {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-    opacity: .8;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    opacity: .6;
   }
   .text-h3 {
     font-family: 'Proxima Nova', Georgia, sans-serif;
@@ -422,10 +426,6 @@ table tr.no-border td {
 #changeBG {
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid #fff;
-}
-
-.wss-header {
-  max-width: 1440px !important;
 }
 
 #resizeText {
@@ -445,48 +445,34 @@ table tr.no-border td {
   padding-right: 10px;
 }
 
-.navBar {
-  margin-left: -.9375rem;
-  margin-right: -.9375rem;
-  display: flex;
-  justify-content: center;
-}
-.innerBar {
-  width: 70rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 10px;
+.landingNavCo {
+  background: #00539B;
+  max-width: 1440px;
+  margin: 0 auto;
   .coloradoLogo {
-    width: 150px;
+    width: 120px;
+    padding: 10px 0;
   }
 }
-@media screen and (min-width: 34em) {
-  .innerBar {
-    width: 32rem;
+.innerNavCo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin: 0 auto;
+  .numberCo a {
+    color: #fff;
+    font-size: 24px;
+    transition: border .2s linear 0s;
+    -webkit-transition: border .2s linear 0s;
+    -moz-transition: border .2s linear 0s;
+    -o-transition: border .2s linear 0s;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 5px solid #fff;
+      text-decoration: none; 
+    }
   }
-}
-
-@media screen and (min-width: 48em) {
-  .innerBar {
-    width: 43rem;
-  }
-}
-
-@media screen and (min-width: 62em) {
-  .innerBar {
-    width: 58rem;
-  }
-}
-
-@media screen and (min-width: 75em) {
-  .innerBar {
-    width: 70rem;
-  }
-}
-body {
-  font-family: 'Proxima Nova', Georgia, sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
