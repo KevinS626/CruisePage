@@ -399,7 +399,7 @@ table tr.no-border td {
 
 #lowPad {
   padding-top: 1px;
-  background: url('../img/aaa-colorado-cruise-deals1.jpg');
+  background: url('../img/aaa-colorado-cruise-deals5.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
@@ -413,7 +413,7 @@ table tr.no-border td {
     bottom: 0;
     left: 0;
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-    opacity: .3;
+    opacity: 0.1;
   }
   .text-h3 {
     font-family: 'Proxima Nova', Georgia, sans-serif;
@@ -421,6 +421,10 @@ table tr.no-border td {
     font-size: 1.5em;
     font-weight: 200;
   }
+}
+
+#smallh1 {
+  font-size: 2em;
 }
 
 #changeBG {
