@@ -484,6 +484,19 @@ table tr.no-border td {
   }
 }
 
+.blockHeight {
+  height: 50px;
+}
+
+.blockStyle {
+  background: rgba(209, 209, 209, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 3px 4px 0px rgba(173,173,173,0.59);
+  -moz-box-shadow: 1px 3px 4px 0px rgba(173,173,173,0.59);
+  box-shadow: 1px 3px 4px 0px rgba(173,173,173,0.59);
+}
+
 @media only screen and (max-width: 767px) {
   .form-control {
     margin-bottom: 10px;
